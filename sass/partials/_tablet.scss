@@ -1,0 +1,34 @@
+@media (max-width: 1023px){
+.wrapper.space-tablet > div {
+    padding: 20px 0;
+}
+#nav-list{
+    display: none;
+}
+.box{
+    width:100%;
+}
+.box + .box{
+    margin-left: 0;
+    margin-top: 15px;
+}
+.box-img{
+    width: 48%;
+    padding: 1%; 
+}
+.box-img + .box-img {
+    margin-left: 0; 
+}
+#blog-updates {
+    width: 100%;
+    margin-right: 0;
+    float: none; 
+}
+#connect-with-us {
+    width: 100%;
+    float: none; 
+}
+.footer-logo {
+    position: static;
+    margin-top: 15px; 
+}}
